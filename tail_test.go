@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hpcloud/tail/ratelimiter"
-	"github.com/hpcloud/tail/watch"
+	"github.com/jingwu15/tail/ratelimiter"
+	"github.com/jingwu15/tail/watch"
 )
 
 func init() {

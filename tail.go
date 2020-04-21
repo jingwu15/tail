@@ -4,21 +4,20 @@
 package tail
 
 import (
-	"bufio"
-	"errors"
-	"fmt"
-	"io"
-	"io/ioutil"
-	"log"
 	"os"
-	"strings"
+	"io"
+	"fmt"
+	"log"
 	"sync"
 	"time"
-
-	"github.com/hpcloud/tail/ratelimiter"
-	"github.com/hpcloud/tail/util"
-	"github.com/hpcloud/tail/watch"
-	"gopkg.in/tomb.v1"
+	"bufio"
+	"errors"
+	"strings"
+	"io/ioutil"
+    "github.com/jingwu15/tail/tomb"
+	"github.com/jingwu15/tail/util"
+	"github.com/jingwu15/tail/watch"
+	"github.com/jingwu15/tail/ratelimiter"
 )
 
 var (

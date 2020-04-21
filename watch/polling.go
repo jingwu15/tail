@@ -5,11 +5,10 @@ package watch
 
 import (
 	"os"
-	"runtime"
 	"time"
-
-	"github.com/hpcloud/tail/util"
-	"gopkg.in/tomb.v1"
+	"runtime"
+    "github.com/jingwu15/tail/tomb"
+	"github.com/jingwu15/tail/util"
 )
 
 // PollingFileWatcher polls the file for changes.

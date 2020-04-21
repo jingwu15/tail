@@ -4,15 +4,13 @@
 package watch
 
 import (
-	"log"
 	"os"
-	"path/filepath"
+	"log"
 	"sync"
 	"syscall"
-
-	"github.com/hpcloud/tail/util"
-
-	"gopkg.in/fsnotify/fsnotify.v1"
+	"path/filepath"
+	"github.com/jingwu15/tail/util"
+    "github.com/fsnotify/fsnotify"
 )
 
 type InotifyTracker struct {
