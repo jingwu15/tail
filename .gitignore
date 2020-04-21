@@ -1,4 +1,5 @@
 .test
 .go
 cmd/gotail
+bin/gotail
 
